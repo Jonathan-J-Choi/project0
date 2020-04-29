@@ -1,0 +1,15 @@
+body {
+  background: url("../assets/sak.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#jumbotron {
+  margin-top: 10em;
+  text-align: center;
+}
+
+p {
+  text-indent: 3em;
+}
+/*# sourceMappingURL=style.css.map */
