@@ -8,7 +8,21 @@ body{
 #jumbotron{
   margin-top: 10em;
   text-align: center;
+  p{
+    text-indent: 3em;
+  }
 }
-p{
-  text-indent: 3em;
+.bold{
+  font-weight: bold;
+}
+table{
+  border-style: solid;
+  border-color: lightpink;
+  @extend .bold
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: lightblue;
+  }
 }

@@ -9,7 +9,22 @@ body {
   text-align: center;
 }
 
-p {
+#jumbotron p {
   text-indent: 3em;
+}
+
+.bold, table {
+  font-weight: bold;
+}
+
+table {
+  border-style: solid;
+  border-color: lightpink;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: lightblue;
+  }
 }
 /*# sourceMappingURL=style.css.map */
